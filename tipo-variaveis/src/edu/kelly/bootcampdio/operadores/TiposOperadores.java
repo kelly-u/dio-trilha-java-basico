@@ -57,7 +57,82 @@ public class TiposOperadores {
         
 
         //Operadores ternários
-        /*Representados pelo símbolos + (valor positivo), - (negativo), ++ (incrementar), -- (decrementar), ! (negação).
-        Utilizados em conjunto com outro operador aritmético.*/
+        /*Representados pelo símbolos ?:
+        Utilizados para resumir uma condição e escolher entre duas opções. É como um IF, mas que está tudo numa única linha*/
+        /*
+            <Expressão Condicional> ? <Caso condição seja true> : <Caso condição seja false>
+         */
+
+        int a = 6,
+             b = 6;
+        String result = "";
+        int resul;
+
+        /*if(a == b){
+            result = "Verdadeiro";
+        }
+        else{
+            result = "Falso";
+        }*/
+
+        // Preciso atribuir esse operadora uma variável. Caso contrário, não teria lógica, né? Fazer essa operação e ela ficar perdida na memória.
+        result = a == b ? "Verdadeiro" : "Falso";
+        
+        // O retorno deve ser de acordo com o tipo da variável
+        resul = a == b ? 1 : 0;
+
+        System.out.println("result: " + result);
+        System.out.println("resul: " + resul);
+
+        //Operadores relacioanis
+        /*Representados pelo símbolos == (igual), != (diferente), > (maior que), >= (maior ou igual), < (menor que), <= (menor ou igual).
+        Retorna um valor booleano.
+        Pode ser usado em números ou String */
+        
+        int numero1 = 1;
+        int numero2 = 2;
+        boolean simNao;
+        String nome1 = "Kelly";
+        String nome2 = "Kelly";
+        String nome3 = new String("Kelly");
+
+        simNao = numero1 == numero2; // false
+
+        simNao = numero1 != numero2; // true
+        
+        simNao = numero1 > numero2; // false
+        
+        simNao = numero1 >= numero2; // false
+        
+        simNao = numero1 < numero2; // true
+        
+        simNao = numero1 <= numero2; // true
+    
+        simNao = nome1 == nome2; // true
+
+        // para comparação de objetos, usa o equals
+        simNao = nome1.equals(nome3); // true
+
+
+
+        //Operadores lógicos
+        /*Representados pelo símbolos && (E) e || (OU).
+        Tabela verdade.
+        Retorna um valor booleano.
+        */
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if (condicao1 && condicao2) {
+            System.out.println("As duas condições são verdadeiras!");
+        }
+        else if (condicao1 || condicao2){
+            System.out.println("Uma das duas condições é verdadeira!");
+        }
+        else {
+            System.out.println("Nenhuma das condições são verdadeiras!");
+        }
+
     }
 }
