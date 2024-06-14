@@ -134,5 +134,9 @@ public class TiposOperadores {
             System.out.println("Nenhuma das condições são verdadeiras!");
         }
 
+        // Posso misturar operadores relacionais com lógicos também! 
+        if (condicao1 && (7 > 4)) {
+            System.out.println("Tudo verdadeiro!!");
+        }
     }
 }
