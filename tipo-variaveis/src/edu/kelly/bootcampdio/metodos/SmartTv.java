@@ -1,39 +1,34 @@
 package edu.kelly.bootcampdio.metodos;
 
+/* Objeto */
 public class SmartTv {
 
     boolean ligada = false;
     int canal = 1;
     int volume = 20;
 
-    public boolean mudarEstado(){
+    public void mudarEstado(){
         ligada = !ligada;
-        return ligada;
     }
 
-    public int aumentarVolume(){
+    public void aumentarVolume(){
         volume ++;
-        return volume;
     }
 
-    public int diminuirVolume(){
+    public void diminuirVolume(){
         volume --;
-        return volume;
     }
 
-    public int mudarCanalMais(){
+    public void mudarCanalMais(){
         canal ++;
-        return canal;
     }
 
-    public int mudarCanalMenos(){
+    public void mudarCanalMenos(){
         canal --;
-        return canal;
     }
 
-    public int mudarCanalNumero(int valorCanal){
+    public void mudarCanalNumero(int valorCanal){
         canal = valorCanal;
-        return canal;
     }
 
 }
