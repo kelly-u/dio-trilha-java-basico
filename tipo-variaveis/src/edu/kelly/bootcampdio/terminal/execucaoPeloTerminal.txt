@@ -1,0 +1,34 @@
+- Entrar na pasta bin do projeto.
+
+- Procurar os arquivos compilados.
+ -> Neste caso, procurar o MinhaClasse.class
+
+ - Procurar nos meus documentos.
+ -> Neste caso,
+    C:\Users\gleic\OneDrive\Documentos\Bootcamp JAVA Satander + Dio\estudos-dio\dio-trilha-java-basico\tipo-variaveis
+-> Nesta pasta dá para ver o src e a pasta bin.
+
+-> Deve estar igual no terminal
+
+- Abrir o PowerShell
+
+- Pegar o destino:
+(antes coloca CD para ele mudar para essa pasta)
+    C:\Users\gleic\OneDrive\Documentos\Bootcamp JAVA Satander + Dio\estudos-dio\dio-trilha-java-basico\tipo-variaveis
+
+- Acesse a pasta bin: cd bin
+
+- digitar dir (para ver os arquivos dentro)
+
+- Acesse até chegar nos seus arquivos
+
+->No meu caso: src/edu/kelly/bootcampdio/terminal
+
+- Agora digite o comando java MinhaClasse (nome da minha classe sem a extensão .class) para executar
+
+A execução gera a mesma saída gerada no terminal do Visual Studio.
+
+Para executar novamente, apaga o arquivo MinhaClasse.class e roda a classe de novo.
+
+
+*cls limpa o terminal
