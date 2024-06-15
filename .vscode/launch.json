@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.tiposevariaveis.TiposVariaveis",
+            "projectName": "dio-trilha-java-basico_761bfd07"
+        },
+        {
+            "type": "java",
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "edu.kelly.bootcampdio.terminal.AboutMe",
