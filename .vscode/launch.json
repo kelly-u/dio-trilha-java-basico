@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CaixaEletronico",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.estruturascondicionais.CaixaEletronico",
+            "projectName": "dio-trilha-java-basico_761bfd07"
+        },
+        {
+            "type": "java",
             "name": "TiposVariaveis",
             "request": "launch",
             "mainClass": "edu.kelly.bootcampdio.tiposevariaveis.TiposVariaveis",
