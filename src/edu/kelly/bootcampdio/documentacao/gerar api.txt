@@ -1,0 +1,13 @@
+Gerar uma documentação (API) visual:
+
+- Colocar no terminal do visual code:
+
+javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/edu/kelly/bootcamp/documentacao/*.java
+
+- Depois, abre o diretório do projeto
+
+- vai em docs
+
+-lá vão ter os html com as docuemntações.
+
+Você faz isso em todos os diretórios que quiser.

@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AboutMe",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.terminal.AboutMe",
+            "projectName": "tipo-variaveis_83635c7"
+        },
+        {
+            "type": "java",
+            "name": "MinhaClasse",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.terminal.MinhaClasse",
+            "projectName": "tipo-variaveis_83635c7"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.metodos.Usuario",
+            "projectName": "tipo-variaveis_83635c7"
+        },
+        {
+            "type": "java",
+            "name": "metodos",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.metodos.metodos",
+            "projectName": "tipo-variaveis_83635c7"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TiposOperadores",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.operadores.TiposOperadores",
+            "projectName": "tipo-variaveis_83635c7"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.tiposevariaveis.TiposVariaveis",
+            "projectName": "tipo-variaveis_83635c7"
+        }
+    ]
+}
