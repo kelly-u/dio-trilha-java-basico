@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemaMedida",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.estruturascondicionais.SistemaMedida",
+            "projectName": "dio-trilha-java-basico_761bfd07"
+        },
+        {
+            "type": "java",
             "name": "ResultadoEscolar3",
             "request": "launch",
             "mainClass": "edu.kelly.bootcampdio.estruturascondicionais.ResultadoEscolar3",
