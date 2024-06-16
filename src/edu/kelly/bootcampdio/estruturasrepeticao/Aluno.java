@@ -10,5 +10,10 @@ public class Aluno {
             System.out.println("Aluno(a)" + (i+1) + ": " + alunos[i]);
        }
 
+       // for each -> muito usado em arrays. Mais simplificado do que o for
+       for(String aluno : alunos){
+           System.out.println("Nome do aluno é: " + aluno);
+       }
+       // aluno é a variável que vai ter seu valor alternado para os itens do array.
     }
 }
