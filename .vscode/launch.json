@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aluno",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.estruturasrepeticao.Aluno",
+            "projectName": "dio-trilha-java-basico_761bfd07"
+        },
+        {
+            "type": "java",
             "name": "Carneirinhos",
             "request": "launch",
             "mainClass": "edu.kelly.bootcampdio.estruturasrepeticao.Carneirinhos",
