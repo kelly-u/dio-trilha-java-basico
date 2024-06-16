@@ -1,6 +1,6 @@
 package edu.kelly.bootcampdio.estruturasrepeticao;
 
-public class Carneirinhos {
+public class Carneirinho {
     public static void main(String[] args) {
 
         // for -> para repetições
