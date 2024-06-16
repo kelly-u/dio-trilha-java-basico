@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PlanoOperadora",
+            "request": "launch",
+            "mainClass": "edu.kelly.bootcampdio.estruturascondicionais.PlanoOperadora",
+            "projectName": "dio-trilha-java-basico_761bfd07"
+        },
+        {
+            "type": "java",
             "name": "SistemaMedida",
             "request": "launch",
             "mainClass": "edu.kelly.bootcampdio.estruturascondicionais.SistemaMedida",
