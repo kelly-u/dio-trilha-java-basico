@@ -56,6 +56,8 @@ public static void main(String[] args) {
     // Não esquece de IMPORTAR a classe da excessão!!!
     catch(InputMismatchException e){
         System.out.println("Os campos idade e altura precisam ser numéricos!");
+        // Também pode ser:
+        System.err.println("Os campos idade e altura precisam ser numéricos!");
     }
 }
 
