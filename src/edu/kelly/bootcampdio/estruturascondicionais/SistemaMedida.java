@@ -2,7 +2,7 @@ package edu.kelly.bootcampdio.estruturascondicionais;
 
 public class SistemaMedida {
     public static void main(String[] args) {
-        
+        // Switch Case - uma variável e muitos casos. E esses casos tem diferenças entre si.
         String sigla = "N";
 
         switch (sigla) {
