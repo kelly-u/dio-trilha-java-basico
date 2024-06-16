@@ -2,7 +2,7 @@ package edu.kelly.bootcampdio.estruturascondicionais;
 
 public class ResultadoEscolar2 {
     public static void main(String[] args) {
-        int nota  = 10;
+        int nota = 10;
 
     // Condicional encadeada - tem vários caminhos caminhos
     if(nota >= 7){
